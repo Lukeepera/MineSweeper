@@ -1,5 +1,4 @@
 class Piece:
-    # States: Not clicked, clicked, flagged
     def __init__(self, hasBomb):
         self.hasBomb = hasBomb
         self.around = 0
