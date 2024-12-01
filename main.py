@@ -5,11 +5,11 @@ from Modules.game import Game
 
 def get_game_settings(difficulty):
     if difficulty == "easy":
-        return 0.22, (8, 8)
+        return 0.18, (8, 8)
     elif difficulty == "medium":
-        return 0.25, (12, 12)
+        return 0.21, (12, 12)
     elif difficulty == "hard":
-        return 0.32, (16, 16)
+        return 0.27, (16, 16)
     else:
         raise ValueError("Invalid difficulty. Choose 'easy', 'medium', or 'hard'.")
 
